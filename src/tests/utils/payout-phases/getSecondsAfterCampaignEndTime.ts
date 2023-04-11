@@ -1,7 +1,7 @@
 import {
   GenericNumber,
   genericNumberToNumber,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import BN from "bn.js";
 
 export default function getSecondsAfterCampaignEndTime(

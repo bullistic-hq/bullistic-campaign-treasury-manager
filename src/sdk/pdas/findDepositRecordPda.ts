@@ -1,4 +1,4 @@
-import { PdaResult } from "@formfunction-hq/formfunction-program-shared";
+import { PdaResult } from "@bullistic-hq/bullistic-program-shared";
 import { PublicKey } from "@solana/web3.js";
 import { DEPOSIT_RECORD_PREFIX } from "sdk/constants/AccountPrefixes";
 

@@ -61,7 +61,7 @@ pub struct CreateCampaignEscrowInput {
     pub non_voting_payout_phases: Vec<NonVotingPayoutPhaseInput>,
     // TODO[@bonham000]: Should we go ahead and include the voting payout_phases
     // data in the argument now for backwards compatibility reasons?
-    // context: https://www.notion.so/formfunction/Solana-Program-Backwards-Compatibility-18a68a79f6374c43be9b44f063998366#4d54d0b2012842d88b5d7214713ae5c4
+    // context: https://www.notion.so/bullistic/Solana-Program-Backwards-Compatibility-18a68a79f6374c43be9b44f063998366#4d54d0b2012842d88b5d7214713ae5c4
     pub voting_payout_phases: Vec<VotingPayoutPhaseInput>,
 }
 

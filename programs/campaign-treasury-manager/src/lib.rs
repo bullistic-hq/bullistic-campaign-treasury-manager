@@ -17,11 +17,11 @@ pub use validate_cpi_invocation::*;
 
 #[cfg(not(feature = "no-entrypoint"))]
 security_txt! {
-    name: "Formfunction Campaign Treasury Manager Program",
-    project_url: "https://formfunction.xyz",
-    source_code: "https://github.com/formfunction-hq",
-    contacts: "email:matt@formfunction.xyz",
-    policy: "https://formfunction.notion.site/Security-Policy-4ca262c13fe3452087b356ef1fd165e9",
+    name: "Bullistic Campaign Treasury Manager Program",
+    project_url: "https://bullistic.xyz",
+    source_code: "https://github.com/bullistic-hq",
+    contacts: "email:matt@bullistic.xyz",
+    policy: "https://bullistic.notion.site/Security-Policy-4ca262c13fe3452087b356ef1fd165e9",
     preferred_languages: "en",
     auditors: "n/a",
     acknowledgements: "Thanks for visiting."

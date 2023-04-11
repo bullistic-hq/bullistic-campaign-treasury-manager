@@ -8,7 +8,7 @@ use crate::{
     CampaignTreasuryManagerError, PayoutPhaseEnum, PayoutPhases,
 };
 
-// This account is a PDA of the Formfunction campaign UUID.
+// This account is a PDA of the Bullistic campaign UUID.
 #[account]
 pub struct CampaignEscrow {
     // PDA bump.
@@ -17,7 +17,7 @@ pub struct CampaignEscrow {
     // account is created.
     pub campaign_uuid: String,
     // Authority pubkey which can update the escrow.
-    // This will be a Formfunction managed wallet.
+    // This will be a Bullistic managed wallet.
     pub authority: Pubkey,
     // Pubkey of the campaign creator, used to authorize some transactions.
     pub creator: Pubkey,

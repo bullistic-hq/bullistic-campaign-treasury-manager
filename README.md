@@ -7,7 +7,7 @@
 
 
 <div align="center">
-  <h1>Formfunction Campaign Treasury Manager</h1>
+  <h1>Bullistic Campaign Treasury Manager</h1>
   <a href="#overview">Overview</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="#repo-structure">Repo Structure</a>
@@ -27,7 +27,7 @@
 
 # Overview
 
-This repo contains the Formfunction campaign treasury manager program and SDK. The goals of this program are as follows:
+This repo contains the Bullistic campaign treasury manager program and SDK. The goals of this program are as follows:
 
 1. A campaign’s treasury can be funded by a generative mint sale and/or auction house sales (e.g. auctions, instant sales, editions, offers). The treasury mint will be either SOL or USDC, but we will not have mixed treasuries.
     
@@ -46,7 +46,7 @@ This repo contains the Formfunction campaign treasury manager program and SDK. T
     
 3. If the campaign **********does********** meet its goal…
     1. Some initial payout percentage of the funds will be immediately given to the creator. This number should be configurable.
-    2. The rest of the funds will be released in ******phases******. We (Formfunction) can veto the phases, in which case users will get partially refunded. The number of phases and the payout percentage for each phase should be configurable. A future follow-up may allow campaign supporters to veto payout phases.
+    2. The rest of the funds will be released in ******phases******. We (Bullistic) can veto the phases, in which case users will get partially refunded. The number of phases and the payout percentage for each phase should be configurable. A future follow-up may allow campaign supporters to veto payout phases.
 
 > 💡 Note that in our product, we will probably start with hardcoded phases and not expose the configuration logic to creators. E.g. by default, 50% would be paid out immediately, then 25% after 3 months, and then 25% after 6 months.
 
@@ -142,7 +142,7 @@ The Solana program and TS SDK are versioned separately.
 
 ### Crate
 
-To publish a new version of this crate, [follow the steps here](https://www.notion.so/formfunction/Shipyard-Private-Crate-Registry-9e74df6df9714c3085661639363931c8#7dae84725f314f21905ae704a15e7a3f).
+To publish a new version of this crate, [follow the steps here](https://www.notion.so/bullistic/Shipyard-Private-Crate-Registry-9e74df6df9714c3085661639363931c8#7dae84725f314f21905ae704a15e7a3f).
 
 ### Solana Program
 

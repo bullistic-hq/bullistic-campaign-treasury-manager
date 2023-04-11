@@ -1,7 +1,7 @@
 import {
   createSplToken,
   expectPublicKeysEqual,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import { NATIVE_MINT } from "@solana/spl-token";
 import UpdateCampaignEscrowInput from "sdk/types/UpdateCampaignEscrowInput";
 import createCampaignEscrowForTest from "tests/utils/createCampaignEscrowForTest";

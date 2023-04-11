@@ -2,7 +2,7 @@ import {
   arePublicKeysEqual,
   findAtaPda,
   isMintNative,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import { TOKEN_PROGRAM_ID } from "@solana/spl-token";
 import {
   PublicKey,

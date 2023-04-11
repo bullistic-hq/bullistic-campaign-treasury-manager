@@ -2,7 +2,7 @@ import {
   Environment,
   generateKeypairArray,
   requestAirdrops,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import { Wallet as AnchorWallet } from "@project-serum/anchor";
 import { Connection, Keypair } from "@solana/web3.js";
 import CampaignTreasuryManagerSdk from "sdk/CampaignTreasuryManagerSdk";

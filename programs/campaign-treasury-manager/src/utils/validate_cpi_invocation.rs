@@ -8,8 +8,8 @@ pub fn validate_cpi_invocation<'a>(_instruction_sysvar_account: &AccountInfo<'a>
 #[cfg(not(feature = "use-test-env"))]
 pub fn validate_cpi_invocation(instruction_sysvar_account: &AccountInfo) -> Result<()> {
     use crate::constants::{
-        FORMFN_AUCTION_HOUSE_DEVNET_PROGRAM_ID, FORMFN_AUCTION_HOUSE_PROGRAM_ID,
-        FORMFN_AUCTION_HOUSE_TESTNET_PROGRAM_ID, FORMFN_CANDY_MACHINE_PROGRAM_ID,
+        BULLISTIC_AUCTION_HOUSE_DEVNET_PROGRAM_ID, BULLISTIC_AUCTION_HOUSE_PROGRAM_ID,
+        BULLISTIC_AUCTION_HOUSE_TESTNET_PROGRAM_ID, BULLISTIC_CANDY_MACHINE_PROGRAM_ID,
     };
     use crate::{cmp_pubkeys, CampaignTreasuryManagerError};
     use solana_program::sysvar::instructions::get_instruction_relative;
@@ -20,10 +20,10 @@ pub fn validate_cpi_invocation(instruction_sysvar_account: &AccountInfo) -> Resu
     let previous_ix_program_id = previous_instruction.program_id;
 
     if ![
-        FORMFN_AUCTION_HOUSE_DEVNET_PROGRAM_ID,
-        FORMFN_AUCTION_HOUSE_TESTNET_PROGRAM_ID,
-        FORMFN_AUCTION_HOUSE_PROGRAM_ID,
-        FORMFN_CANDY_MACHINE_PROGRAM_ID,
+        BULLISTIC_AUCTION_HOUSE_DEVNET_PROGRAM_ID,
+        BULLISTIC_AUCTION_HOUSE_TESTNET_PROGRAM_ID,
+        BULLISTIC_AUCTION_HOUSE_PROGRAM_ID,
+        BULLISTIC_CANDY_MACHINE_PROGRAM_ID,
     ]
     .iter()
     .any(|key| cmp_pubkeys(key, &previous_ix_program_id))

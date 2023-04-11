@@ -8,7 +8,7 @@ import {
   requestAirdrops,
   solToLamports,
   sumArray,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import { NATIVE_MINT } from "@solana/spl-token";
 import createCampaignEscrowForTest from "tests/utils/createCampaignEscrowForTest";
 import createDepositForTest from "tests/utils/createDepositForTest";

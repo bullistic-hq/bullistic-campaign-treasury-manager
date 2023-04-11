@@ -1,9 +1,9 @@
 [package]
 name = "campaign-treasury-manager"
 version = "0.0.7"
-description = "Formfunction campaign treasury manager program."
-authors = ["Formfunction Developers"]
-repository = "https://github.com/formfunction-hq/campaign-treasury-manager"
+description = "Bullistic campaign treasury manager program."
+authors = ["Bullistic Developers"]
+repository = "https://github.com/bullistic-hq/campaign-treasury-manager"
 edition = "2018"
 
 [lib]

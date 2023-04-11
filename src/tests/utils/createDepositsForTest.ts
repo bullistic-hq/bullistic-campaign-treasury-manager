@@ -7,7 +7,7 @@ import {
   requestAirdrops,
   solToLamports,
   sumArray,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import { Connection, Keypair, PublicKey } from "@solana/web3.js";
 import CampaignTreasuryManagerSdk from "sdk/CampaignTreasuryManagerSdk";
 import createDepositForTest from "tests/utils/createDepositForTest";

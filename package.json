@@ -1,8 +1,8 @@
 {
-  "name": "@formfunction-hq/campaign-treasury-manager",
+  "name": "@bullistic-hq/campaign-treasury-manager",
   "version": "0.0.0",
   "description": "Campaign treasury manager program client SDK.",
-  "repository": "https://github.com/formfunction-hq/campaign-treasury-manager",
+  "repository": "https://github.com/bullistic-hq/campaign-treasury-manager",
   "license": "UNLICENSED",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
     "dist"
   ],
   "publishConfig": {
-    "@formfunction-hq:registry": "https://npm.pkg.github.com"
+    "@bullistic-hq:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "prepare": "husky install",
@@ -34,13 +34,13 @@
     "logs": "cat .anchor/program-logs/Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS.campaign_treasury_manager.log",
     "deploy-program": "./scripts/deploy-program.sh",
     "example-script": "ts-node -r tsconfig-paths/register src/scripts/exampleScript.ts",
-    "publish-crate": "cargo publish --registry formfunction-hq --package campaign-treasury-manager --token w/F4CbdycogTRazaHIto22Hr4RFFyvAj8b3abiz+PFx30o7gV3PKeZ9T3/WrmACcup8=",
+    "publish-crate": "cargo publish --registry bullistic-hq --package campaign-treasury-manager --token w/F4CbdycogTRazaHIto22Hr4RFFyvAj8b3abiz+PFx30o7gV3PKeZ9T3/WrmACcup8=",
     "modify-program-idl": "ts-node -r tsconfig-paths/register -T src/scripts/modifyProgramIdl.ts",
     "lint-program-idl": "ts-node -r tsconfig-paths/register src/scripts/lintProgramIdl.ts",
     "dump": "./scripts/solana-program-dump.sh"
   },
   "dependencies": {
-    "@formfunction-hq/formfunction-program-shared": "0.0.58",
+    "@bullistic-hq/bullistic-program-shared": "0.0.58",
     "@solana/spl-token": "^0.3.7",
     "bn.js": "^5.2.0",
     "dayjs": "^1.11.6",

@@ -1,4 +1,4 @@
-import modifyProgramIdlScript from "@formfunction-hq/formfunction-program-shared/dist/scripts/modifyProgramIdlScript";
+import modifyProgramIdlScript from "@bullistic-hq/bullistic-program-shared/dist/scripts/modifyProgramIdlScript";
 
 modifyProgramIdlScript({
   decodedTransactionResultTypeFilePath:

@@ -1,7 +1,7 @@
 import {
   convertUuidToPdaSeed,
   PdaResult,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import { PublicKey } from "@solana/web3.js";
 import { CAMPAIGN_ESCROW_PREFIX } from "sdk/constants/AccountPrefixes";
 

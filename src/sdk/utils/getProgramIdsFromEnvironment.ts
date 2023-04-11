@@ -1,7 +1,7 @@
 import {
   assertUnreachable,
   Environment,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import {
   CampaignTreasuryManagerProgramIds,
   DEVNET_PROGRAM_IDS,

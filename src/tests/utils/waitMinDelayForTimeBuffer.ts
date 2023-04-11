@@ -1,4 +1,4 @@
-import { sleep } from "@formfunction-hq/formfunction-program-shared";
+import { sleep } from "@bullistic-hq/bullistic-program-shared";
 
 const EXTRA_BUFFER_TIME_IN_SECONDS = 4;
 

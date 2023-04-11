@@ -1,7 +1,7 @@
 import {
   GenericNumber,
   percentToBasisPoints,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import SharedPayoutPhaseFields from "sdk/types/SharedPayoutPhaseFields";
 import getDefaultCampaignEndTimeForTest from "tests/utils/getDefaultCampaignEndTimeForTest";
 import getSecondsAfterCampaignEndTime from "tests/utils/payout-phases/getSecondsAfterCampaignEndTime";

@@ -65,7 +65,7 @@ pub fn handle_create_deposit(ctx: Context<CreateDeposit>, deposit_amount: u64) -
     let deposit_escrow_mint = &ctx.accounts.deposit_escrow_mint;
     let instruction_sysvar_account = &ctx.accounts.instruction_sysvar_account;
 
-    // This instruction may only be called via CPI from other formfn programs.
+    // This instruction may only be called via CPI from other bullistic programs.
     validate_cpi_invocation(instruction_sysvar_account)?;
 
     let deposit_matches_treasury_mint = cmp_pubkeys(

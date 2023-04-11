@@ -4,7 +4,7 @@ import PayoutPhases from "sdk/types/PayoutPhases";
 
 /**
  * Everything referenced in here needs to be kept in sync with the program.
- * See: https://www.notion.so/formfunction/Anchor-IDL-Type-Definition-Limitations-4ddfa382254b4fca99f1bc165938465e
+ * See: https://www.notion.so/bullistic/Anchor-IDL-Type-Definition-Limitations-4ddfa382254b4fca99f1bc165938465e
  */
 
 type CampaignEscrowAnchorIdlType = Awaited<

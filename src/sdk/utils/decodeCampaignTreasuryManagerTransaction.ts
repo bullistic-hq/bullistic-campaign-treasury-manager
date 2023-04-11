@@ -1,7 +1,7 @@
 import {
   decodeTransactionUsingProgramIdl,
   Maybe,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import { ParsedTransactionWithMeta, PublicKey } from "@solana/web3.js";
 import { CAMPAIGN_TREASURY_MANAGER_IDL } from "sdk/idl";
 import DecodedCampaignTreasuryManagerTransactionResult from "sdk/types/DecodedCampaignTreasuryManagerTransactionResult";

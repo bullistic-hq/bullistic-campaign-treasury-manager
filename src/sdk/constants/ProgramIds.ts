@@ -1,7 +1,7 @@
 import {
   ANTI_BOT_DEV_AUTHORITY,
   ANTI_BOT_MAINNET_AUTHORITY,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import { PublicKey } from "@solana/web3.js";
 
 export type CampaignTreasuryManagerProgramIds = {

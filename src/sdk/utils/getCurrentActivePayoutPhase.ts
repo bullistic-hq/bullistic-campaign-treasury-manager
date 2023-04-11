@@ -1,4 +1,4 @@
-import { Maybe } from "@formfunction-hq/formfunction-program-shared";
+import { Maybe } from "@bullistic-hq/bullistic-program-shared";
 import PayoutPhases from "sdk/types/PayoutPhases";
 import PayoutPhaseUnion from "sdk/types/PayoutPhaseUnion";
 import getPayoutPhasesOrderedArray from "sdk/utils/getPayoutPhasesOrderedArray";

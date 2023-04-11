@@ -1,4 +1,4 @@
-import { percentToBasisPoints } from "@formfunction-hq/formfunction-program-shared";
+import { percentToBasisPoints } from "@bullistic-hq/bullistic-program-shared";
 import BN from "bn.js";
 import PayoutPhasesTestInput from "tests/types/PayoutPhasesTestInput";
 import getSecondsAheadUnixTime from "tests/utils/getSecondsAheadUnixTime";

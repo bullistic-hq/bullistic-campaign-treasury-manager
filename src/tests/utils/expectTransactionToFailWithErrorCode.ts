@@ -1,7 +1,7 @@
 import {
   assertUnreachable,
   Maybe,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import {
   ConfirmOptions,
   Connection,
